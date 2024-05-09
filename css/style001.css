@@ -56,9 +56,10 @@ nav ul li{
     margin-bottom: 15px;
 }
 .accesorios-section{
-    border: 1px solid blue;
+    
     display: flex;
     width: 100%;
+    padding-bottom: 10px;
 }
 .accesorio{
     width: 20%;
@@ -72,6 +73,12 @@ h2, h3, p, a{
     width: 90%;
     margin: 5%;
 }
-.sorteo{
-    background-color: red;
+.p-titulo{
+    font-size: large;
+    font-weight: bold;
+}
+
+.article-sorteo{
+    background-color:#d4e7f9;
+    padding: 10px;
 }
