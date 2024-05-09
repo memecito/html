@@ -3,54 +3,64 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css\style-p3.css" />
+      <!-- <link rel="stylesheet" href="css/style-p3.css" />-->
+        <link rel="stylesheet" href="css/style001.css" />
     </head>
     <body>
         <!-- comentarios -->
         <div class="general">
         <header>
-            <span>agoodshop</span>
+            <span id="logo_menu">agoodshop</span>
             <nav class="menu">
+                <ul>
                 <li>Tienda</li>
                 <li>Accesorios</li>
                 <li>Soporte</li>
                 <li>Contactar</li>
+            </ul>
             </nav>
         </header>
         </div>
        <div class="general">
          <div id="contenido">
-            <article id="principal">
-                <img src="https://placehold.co/400x400" alt="Imagen 400x400">
+            <article class="principal">
+                <img class="img-400" src="https://placehold.co/400x400" alt="Imagen 400x400">
+               <section id="informacion">
+                <span class="span-oferta">OFERTA</span>
+                <h2>Compra un iFhone 13 Pro</h2>
+                <p class="p-titulo">Compra un iFhone 13 Pro </p>
                 <p> iFhone 13: Tu nuevo superpoder. Nuestro sistema de cámara dual más avnazado. El chip que hace morder el polvo a la competencia.
                     Un subidón de autonomía que vaya si notarás. Cerami Shield, más duro que cualquier vidrio de smartphone.</p>
                 <p>Pantalla Super Retina XDR de 6,1 pulgadas. Diseño Robusto con border planos y resistente al agua.</p>
+                <p class="p-precio">938,99€</p>
+                <a class="boton" id="boton-azul" href="#">Comprar</a>
 
+               </section>
             </article>
-            <span id="accesorios">Accesorios Recomendados</span>
-            <div id="accesorios">
+            <span id="span-accesorios"><h2>Accesorios Recomendados</h2></span>
+            <div class="accesorios">
                 <section class="accesorios-section">
-                    <article class="accesorios">
-                    <img src="https://placehold.co/100x100" alt="Imagen 200x200">
+                    <article class="accesorio">
+                    <img class="img-200" src="https://placehold.co/100x100" alt="Imagen 200x200">
                     <h3>Cargador</h3>                 
                     <p> El adaptador de corriente USB-C de 20W es my rapido y eficiente, así que va de perltas para cargar tus
                         dispositivos en cualquier lugar</p></article>
-                    <article class="accesorios">
-                    <img src="https://placehold.co/200x200" alt="Imagen 200x200">
+                    <article class="accesorio">
+                    <img class="img-200" src="https://placehold.co/100x100" alt="Imagen 200x200">
                     <h3>Base de carga inalámbrica</h3>
-                    <p class="oferta">Oferta</p>
-                        <p>Sistema de soporte par que sigas usando tu smartphone cómodamente míentras lo cargas. Compatible con carga rápida de 20W</p></article>
-                    <article class="accesorios">
-                    <img src="https://placehold.co/200x200" alt="Imagen 200x200">
+                    <a class="boton" id="boton-rojo" href="#">Oferta</a>
+                    <p>Sistema de soporte par que sigas usando tu smartphone cómodamente míentras lo cargas. Compatible con carga rápida de 20W</p></article>
+                    <article class="accesorio">
+                    <img class="img-200" src="https://placehold.co/100x100" alt="Imagen 200x200">
 
                     <h3> Funda piel</h3>
                     <p>Fabricadas en piel europea curtida y teñida con un proceso especial, son suaves al tacto y adquieren un tono natural con el tiempo. Los botones de aluminio combinan a la perfeccion con el acabado de la piel</p>
                     </article>
-                    <article class="accesorios">
-                    <img src="https://placehold.co/200x200" alt="Imagen 200x200">
+                    <article class="accesorio">
+                    <img class="img-200" src="https://placehold.co/100x100" alt="Imagen 200x200">
 
                     <h3>Cargador</h3>
-                    <p class="nuevo">Nuevo</p>
+                    <a class="boton" id="boton-azul" href="#">Nuevo</a>
                     <p>El adaptador de corriente USB-C de 20W es muy rápido y eficiente, así que va de perlas para cargar tus dispositivos en cualquier lugar.</p>
                     </article>                    
                 </section>
@@ -70,7 +80,7 @@
                             <input type="mail" id="email" name="email" placeholder="arigold@mga.com" required>
                         </div>
                                        
-                    <button type="submit">Enviar</button>
+                    <button class="boton" id="boton-azul" type="submit">Enviar</button>
                 </form>
             </article>
             

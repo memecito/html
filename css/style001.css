@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+}
+header{
+    background-color: antiquewhite;
+    width: 80%;
+    display: flex;
+    border: 1ps solid red;
+    margin:auto;
+
+    
+}
+.img-400{
+    width: 400px;
+    height: 400px;
+}
+.img-200{
+    width: 90%;
+    margin: 5%;
+    
+}
+
+.general{
+}
+header span{
+    margin-left:10px;
+    margin-right: 10px;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#contenido{
+    width: 80%;
+    margin: auto;
+
+}
+.principal{
+    display: flex;
+    border: 1px solid black;
+}
+.principal p{
+
+}
+#span-accesorios{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.accesorios-section{
+    border: 1px solid blue;
+    display: flex;
+    width: 100%;
+}
+.accesorio{
+    width: 20%;
+    border: 1px solid black;
+    margin: 2%;
+    padding: 5px;
+    
+
+}
+h2, h3, p, a{
+    width: 90%;
+    margin: 5%;
+}
+.sorteo{
+    background-color: aquamarine;
+}
