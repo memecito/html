@@ -82,3 +82,18 @@ h2, h3, p, a{
     background-color:#d4e7f9;
     padding: 10px;
 }
+.boton{
+    width: 25px;
+    height: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-size: 0.75em;
+}
+hr{
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
