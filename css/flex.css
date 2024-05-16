@@ -1,0 +1,57 @@
+/*
+practica de estilos flex
+*/
+body{
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    font-style: none;
+    color: inherit;
+}
+
+ul{
+    background-color: grey;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 10rem;
+}
+li{
+    background-color: chocolate;
+    color: white;
+    border: 1px dashed black;
+    padding: .3rem .7rem;
+}
+li:nth-child(2){
+    font-size: 1rem;
+}
+
+/*
+PARTE DE POSICIONAMIENTO*/
+ul{
+    display: flex;
+    /*
+    flex-direction: row-reverse;
+    */
+    /*alineacion del contenido*/
+   /*
+    justify-content:space-between /*esta propedad reparte el contenido*/;
+    /*
+    flex-wrap: wrap;/*crea varias lineas si no cogen los elementos en el contendor*/
+    /*
+    es la combinacion de direction y wrap
+    flex-flow: row wrap;
+    */
+    /*align-items: center;
+    justify-content: center;
+*/
+    flex-wrap: wrap;
+    align-content: space-between;
+
+
+}
+li{
+    
+}
